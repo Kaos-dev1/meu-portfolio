@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Rodrigo Tavares</title>
+    <style>
+        :root {
+            --primary: #663399;
+            --bg: #f4f4f9;
+            --text: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 0; }
+        header { background: var(--primary); color: white; padding: 3rem 1rem; text-align: center; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 4px solid white; margin-bottom: 1rem; object-fit: cover; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        section { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+        h2 { border-bottom: 2rem solid var(--primary); display: inline-block; color: var(--primary); margin-top: 0; border-bottom: 2px solid; padding-bottom: 5px; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card { border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .tech-tag { background: #e0d4f7; color: var(--primary); padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="eu.jpg" alt="Rodrigo Tavares" class="profile-img">
+    <h1>Rodrigo Cauan Tavares</h1>
+    <p>Estudante de Ciência da Computação | Aspirante a Analista de Dados</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Desenvolvedor com experiência em <strong>Java, Python e SQL</strong>. Atualmente, foco em transformar processos lógicos de backend em insights acionáveis. Minha base em Ciência da Computação permite uma visão técnica profunda sobre a estrutura e integridade dos dados.</p>
+    </section>
+
+    <section>
+        <h2>Projetos de Dados & Lógica</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Sistema de Gestão Financeira</h3>
+                <p>Processamento de fluxos de caixa e validação de transações bancárias. Focado na integridade e categorização de dados financeiros[cite: 2].</p>
+                <span class="tech-tag">Java</span> <span class="tech-tag">Lógica de Negócio</span>
+            </div>
+
+            <div class="card">
+                <h3>Análise de Avaliações (Screen Match)</h3>
+                <p>Algoritmo para agregação e cálculo de médias de performance. Aplicação de filtros estatísticos em grandes volumes de entradas.</p>
+                <span class="tech-tag">Java</span> <span class="tech-tag">Estatística Aplicada</span>
+            </div>
+
+            <div class="card">
+                <h3>Plataforma Educativa (In Dev)</h3>
+                <p>Sistema para conectar voluntários universitários e estudantes. Modelagem de dados focada em impacto social e escalabilidade.</p>
+                <span class="tech-tag">Spring Boot</span> <span class="tech-tag">UML</span>
+                <br>
+                <a href="conecta.html" class="btn-link">Visualizar Página de Apresentação</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li><strong>Linguagens:</strong> Java, Python, C, JavaScript.</li>
+            <li><strong>Ferramentas:</strong> Spring Boot, Git, SQL, Excel Avançado.</li>
+            <li><strong>Soft Skills:</strong> Resolução de Problemas, Pensamento Analítico, Trabalho em Equipe.</li>
+        </ul>
+    </section>
+</div>
+
+<footer style="text-align: center; padding: 2rem; color: #666;">
+    <p>© 2026 Rodrigo Tavares - <a href="https://www.linkedin.com/in/rodrigo-tavares-5bb4a735b/" target="_blank">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
